@@ -1,5 +1,6 @@
 import TopBanner from "@/components/TopBanner/TopBanner";
 import About from "@/components/About/About";
+import Skills from "@/components/Skills/Skills";
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
         </div>
 
         <About />
+        <Skills />
+
     </main>
   );
 }
