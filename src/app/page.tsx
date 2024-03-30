@@ -1,4 +1,6 @@
 import TopBanner from "@/components/TopBanner/TopBanner";
+import About from "@/components/About/About";
+
 export default function Home() {
   return (
     <main className="">       
@@ -12,6 +14,8 @@ export default function Home() {
             <button className="button">Contact Me</button>
           </div>
         </div>
+
+        <About />
     </main>
   );
 }
