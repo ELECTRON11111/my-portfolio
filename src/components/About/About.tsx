@@ -3,10 +3,12 @@ export default function About() {
         <div id="about" className="p-5 py-16 sm:grid sm:grid-cols-3">
             <h2 className="py-4 text-xl font-extrabold sm:justify-self-center">About Me.</h2>
             <div className="sm:col-span-2">
-                <p className="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates harum voluptatum necessitatibus debitis delectus illo? Reprehenderit obcaecati dicta voluptates consequatur, molestias ex fugiat sunt dolore officia asperiores sequi enim aspernatur?
-                Voluptate, natus consequatur. Neque minus sequi quasi quod assumenda corporis ab doloremque sunt hic tempore placeat, necessitatibus officiis, iure porro laudantium culpa quos atque, aliquid corrupti obcaecati consequuntur? Ea, mollitia!
-                Quo, provident quia id facilis repellendus laboriosam ducimus labore sunt atque voluptate veritatis debitis recusandae ab soluta, ullam itaque tenetur et ut voluptates vitae explicabo, voluptas maxime accusantium alias? Quae.
-                Tempora, ducimus quisquam impedit deleniti fuga a dolores error quibusdam aut, non natus veritatis.</p>
+                <p className="my-2">Hey there! My name's Opemipo, a Frontend Engineer and Tech enthusiast with 2+ years of Experience
+                building web applications following development techniques to meet business needs. As an intro, I'd say I've always been
+                into tech from childhood, it facinated me growing up and is the reason I study Computer Engineering today. I work on the Client 
+                side of web applications building pexel perfect designs, fetching and posting data to servers, ensuring Search Engine Optimization
+                (SEO) and page responsiveness. My goal is to use my skills to solve real world problems and challenges by going Full Stack.
+                Diving into Backend (Server-side) development soon. Check out my resume and CV.</p>
 
                 <div id="buttons" className="flex justify-evenly py-4 sm:justify-start sm:gap-6">
                     <button className="flex py-2 px-4 border border-black gap-2 rounded transition duration-300 ease-out hover:scale-105">

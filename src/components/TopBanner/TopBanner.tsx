@@ -22,8 +22,8 @@ export default function TopBanner() {
                 <ul className="grid grid-cols-2 gap-2 sm:flex md:gap-16">
                     <li className="link"><Link href="#">Home</Link></li>
                     <li className="link"><Link href="#about">About</Link></li>
-                    <li className="link"><Link href="#">Projects</Link></li>
-                    <li className="link"><Link href="#">Contact</Link></li>
+                    <li className="link"><Link href="#Projects">Projects</Link></li>
+                    <li className="link"><Link href="#Contact">Contact</Link></li>
                 </ul>
             </nav>
 

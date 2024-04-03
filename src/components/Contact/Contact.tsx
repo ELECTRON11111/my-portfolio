@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link";
 
 export default function Contact () {
@@ -26,8 +27,9 @@ export default function Contact () {
                 </div>
             </div>
 
-            <div id="Btn-Container" className="my-2 flex items-center justify-center py-4">
-                <button className="contact-btn">Contact Me</button>
+            <div id="Btn-Container" className="my-2 flex flex-col gap-4 items-center justify-center py-4">
+                <button className="contact-btn" onClick={() => alert("Kindly send an email to omoniyiopemipo6@gmail.com")}>Contact Me</button>
+                <Link className="text-sm hover:underline" href={"#"}>Back to top {"-->"}</Link>
             </div>
 
             <div id="socials" className="flex flex-col gap-4 items-center sm:items-end justify-center">
