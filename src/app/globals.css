@@ -12,3 +12,12 @@
   @apply border-2 cursor-pointer justify-self-center my-2 border-black rounded text-black px-4 py-2 text-center self-center justify-center
   transition duration-300 ease-out hover:scale-105 sm:self-start sm:text-white sm:border-white sm:row-start-3 sm:col-span-2 sm:justify-self-center
 }
+
+.project {
+  @apply w-64 h-64 bg-red-500 m-4 mx-0 flex items-center justify-center cursor-pointer shadow-2xl
+  bg-contain;
+}
+
+.project-btn {
+  @apply py-3 px-4 border border-black rounded transition duration-300 ease-out hover:transition hover:scale-105
+}
