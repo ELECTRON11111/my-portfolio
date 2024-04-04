@@ -3,8 +3,8 @@ export default function About() {
         <div id="about" className="p-5 py-16 sm:grid sm:grid-cols-3">
             <h2 className="py-4 text-xl font-extrabold sm:justify-self-center">About Me.</h2>
             <div className="sm:col-span-2">
-                <p className="my-2">Hey there! My name's Opemipo, a Frontend Engineer and Tech enthusiast with 2+ years of Experience
-                building web applications following development techniques to meet business needs. As an intro, I'd say I've always been
+                <p className="my-2">Hey there! My name&apos;s Opemipo, a Frontend Engineer and Tech enthusiast with 2+ years of Experience
+                building web applications following development techniques to meet business needs. As an intro, I&apos;d say I&apos;ve always been
                 into tech from childhood, it facinated me growing up and is the reason I study Computer Engineering today. I work on the Client 
                 side of web applications building pexel perfect designs, fetching and posting data to servers, ensuring Search Engine Optimization
                 (SEO) and page responsiveness. My goal is to use my skills to solve real world problems and challenges by going Full Stack.

@@ -83,8 +83,8 @@ export default function Projects() {
                     </div>
                     <h3 className="font-bold py-3">SMITH - shopping bot</h3>
                     <p>Description - Going to supermarkets growing up I always thought about how the Desktop applications 
-                    on the computer could manage the stores' Inventory. Since I started Web development, I thought why not 
-                    implement something similar for the web. Well, I did it, with the web's fundamental technologies: <b>HTML, CSS and JS.</b></p>
+                    on the computer could manage the stores&apos; Inventory. Since I started Web development, I thought why not 
+                    implement something similar for the web. Well, I did it, with the web&apos;s fundamental technologies: <b>HTML, CSS and JS.</b></p>
                 </div>
             </div>
         </div>
