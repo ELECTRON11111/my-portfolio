@@ -10,7 +10,7 @@ export default function TopBanner() {
     };
 
     return (
-        <div id="TopBanner" className="bg-white grid grid-cols-2 w-full p-4 select-none sm:grid-cols-4 sm:p-5 md:p-7">
+        <div id="TopBanner" className="bg-black text-white grid grid-cols-2 w-full p-4 px-8 select-none sm:px-4 sm:grid-cols-4 sm:p-5 md:p-7 md:px-20">
             <div id="logo" className="font-bold text-lg sm:self-center sm:font-extrabold sm:text-6xl">OO</div>
 
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6 cursor-pointer ml-auto sm:hidden" onClick={drawerClickedHandler}>
