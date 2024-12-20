@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); */
-
 .link {
-  @apply rounded cursor-pointer p-4 hover:underline sm:p-1
+  @apply rounded cursor-pointer p-4 hover:underline hover:text-yellow-500 sm:p-1
 }
 
 .button {
@@ -24,4 +25,20 @@
 
 .contact-btn {
   @apply py-3 px-4 border-2 border-white rounded transition duration-300 ease-out hover:transition hover:scale-105
+}
+
+
+/* Enquiries Page */
+
+
+.ease-transition {
+  @apply transition ease-out duration-300
+}
+
+.input-contact {
+  @apply w-full px-4 py-2 my-2 border-2 border-yellow-500 bg-inherit text-white;
+}
+
+.active {
+  @apply border-b-2 border-yellow-500 text-yellow-500;
 }
