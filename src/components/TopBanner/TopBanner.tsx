@@ -10,14 +10,13 @@ export default function TopBanner() {
     };
 
     return (
-        <div id="TopBanner" className="bg-black text-white grid grid-cols-2 w-full p-4 px-8 select-none sm:px-4 sm:grid-cols-4 sm:p-5 md:p-7 md:px-20">
+        <div id="TopBanner" className="fixed top-0 left-0 z-[100] bg-black text-white grid grid-cols-2 w-full p-4 px-8 select-none sm:px-4 sm:grid-cols-4 sm:p-5 md:p-7 md:px-20">
             <div id="logo" className="font-bold text-lg sm:self-center sm:font-extrabold sm:text-6xl">OO</div>
 
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6 cursor-pointer ml-auto sm:hidden" onClick={drawerClickedHandler}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>
 
-            
             <nav className={`${isDrawerOpen? "": "hidden"} col-span-2 justify-self-center sm:block sm:self-center`}>
                 <ul className="grid grid-cols-2 gap-2 sm:flex md:gap-16">
                     <li className="link"><Link href="#">Home</Link></li>
