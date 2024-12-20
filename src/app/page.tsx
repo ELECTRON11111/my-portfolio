@@ -2,9 +2,8 @@ import Image from "next/image";
 import TopBanner from "@/components/TopBanner/TopBanner";
 import About from "@/components/About/About";
 import Skills from "@/components/Skills/Skills";
-// import Projects from "@/components/Projects/Projects";
-import { ThreeDCardDemo } from "@/components/Projects/Projects";
 import Contact from "@/components/Contact/Contact";
+import Projects from "@/components/Projects/Projects";
 
 export default function Home() {
   return (
@@ -31,8 +30,7 @@ export default function Home() {
 
         <About />
         <Skills />
-        <ThreeDCardDemo />
-        {/* <Projects /> */}
+        <Projects />
         <Contact />
     </main>
   );

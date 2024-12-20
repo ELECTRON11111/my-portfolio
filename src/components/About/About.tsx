@@ -8,7 +8,7 @@ export default function About() {
             date: "June 2024 - September 2024",
             role: "Frontend Developer",
             imgSrc: "/assets/acme-logo.png",
-            company: "ACME Software Labs",
+            company: "ACME Software Labs, Ile-Ife",
             description: [
                 "Successfully converted whole UI/UX designs to functional sites for the company with optimizations that lead to about 15% increase in site speed.",
                 "Collaborated with designers on the team to develop Intuitive designs that lead to over 25% improved User Experience.",
@@ -44,7 +44,7 @@ export default function About() {
             date: "2020 - 2021",
             imgSrc: "/assets/acme-logo.png",
             role: "Junior Frontend Developer",
-            company: "Perfcreg Solutions",
+            company: "Perfcreg Solutions, Ota",
             description: [
                 "Improved user interfaces by updating landing pages to be more intuitive, increasing user experience by 25%",
                 "Involved in designing and coding across 2 web applications and feature enhancements.",
@@ -54,7 +54,7 @@ export default function About() {
     ];
     return (
         <div id="about" className="p-8 py-16 flex flex-col text-center bg-black text-white md:px-20">
-            <h2 className="py-4 text-xl font-extrabold sm:justify-self-center sm:pb-8">Work Experiences.</h2>
+            <h2 className="py-4 text-xl text-start font-extrabold sm:text-center sm:justify-self-center sm:pb-8">Work Experiences.</h2>
             
             <div className="work-experiences flex flex-col gap-6">
                 {workExperiences.map((item: any, index):any => 
@@ -102,9 +102,9 @@ const WorkExperience = (props: any):any => {
         >
             <div className="date text-sm text-gray-400">{props.date}</div>
             <div id="workexperience-text" className="flex flex-col items-start gap-2 text-gray-400 lg:col-span-2">
-                <div className="flex gap-4">
-                    <h1 className="text-white">{props.role}</h1>
-                    <h2 className="text-yellow-500">{props.company}</h2>
+                <div className="flex flex-col items-start gap-2 sm:flex-row sm:gap-4">
+                    <h1 className="text-white  text-start text-sm text-nowrap sm:text-base">{props.role}</h1>
+                    <h2 className="text-yellow-500 text-sm sm:text-base">{props.company}</h2>
                 </div>
 
                 <ul className="text-start px-4 sm:text-justify">
