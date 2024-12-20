@@ -20,49 +20,49 @@ export default function Skills() {
                 <div id="technology" className="w-full h-10 bg-black flex items-center">
                     <span className="block p-4 w-[6.5rem] pr-14">HTML</span>
                     <div className="bg-white basis-3/4 flex">
-                        <div className="bg-gray-600 basis-[95%] text-gray-600">.</div>
+                        <div className="bg-yellow-500 basis-[95%] text-yellow-500">.</div>
                     </div>
                 </div>
                 
                 <div id="technology" className="w-full h-10 bg-black flex items-center">
                     <span className="block p-4 w-[6.5rem] pr-14">CSS</span>
                     <div className="bg-white basis-3/4 flex">
-                        <div className="bg-gray-600 basis-[80%] text-gray-600">.</div>
+                        <div className="bg-yellow-500 basis-[80%] text-yellow-500">.</div>
                     </div>
                 </div>
                 
                 <div id="technology" className="w-full h-10 bg-black flex items-center">
                     <span className="block p-4 w-[6.5rem]">JavaScript</span>
                     <div className="bg-white basis-3/4 flex">
-                        <div className="bg-gray-600 basis-[80%] text-gray-600">.</div>
+                        <div className="bg-yellow-500 basis-[80%] text-yellow-500">.</div>
                     </div>
                 </div>
                 
                 <div id="technology" className="w-full h-10 bg-black flex items-center">
                     <span className="block p-4 w-[6.5rem]">Typescript</span>
                     <div className="bg-white basis-3/4 flex">
-                        <div className="bg-gray-600 basis-[80%] text-gray-600">.</div>
+                        <div className="bg-yellow-500 basis-[80%] text-yellow-500">.</div>
                     </div>
                 </div>
                 
                 <div id="technology" className="w-full h-10 bg-black flex items-center">
                     <span className="block p-4 w-[6.5rem] pr-14">React</span>
                     <div className="bg-white basis-3/4 flex">
-                        <div className="bg-gray-600 basis-[85%] text-gray-600">.</div>
+                        <div className="bg-yellow-500 basis-[85%] text-yellow-500">.</div>
                     </div>
                 </div>
                 
                 <div id="technology" className="w-full h-10 bg-black flex items-center">
                     <span className="block p-4 w-[6.5rem] pr-14">Tailwind</span>
                     <div className="bg-white basis-3/4 flex">
-                        <div className="bg-gray-600 basis-[95%] text-gray-600">.</div>
+                        <div className="bg-yellow-500 basis-[95%] text-yellow-500">.</div>
                     </div>
                 </div>
 
                 <div id="technology" className="w-full h-10 bg-black flex items-center">
                     <span className="block p-4 w-[6.5rem] pr-14">NextJs</span>
                     <div className="bg-white basis-3/4 flex">
-                        <div className="bg-gray-600 basis-3/4 text-gray-600">.</div>
+                        <div className="bg-yellow-500 basis-3/4 text-yellow-500">.</div>
                     </div>
                 </div>
             </div>
