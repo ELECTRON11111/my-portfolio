@@ -75,7 +75,7 @@ export default function About() {
                             <path strokeLinecap="round" strokeLinejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 0 0 4.5 9.75v7.5a2.25 2.25 0 0 0 2.25 2.25h7.5a2.25 2.25 0 0 0 2.25-2.25v-7.5a2.25 2.25 0 0 0-2.25-2.25h-.75m-6 3.75 3 3m0 0 3-3m-3 3V1.5m6 9h.75a2.25 2.25 0 0 1 2.25 2.25v7.5a2.25 2.25 0 0 1-2.25 2.25h-7.5a2.25 2.25 0 0 1-2.25-2.25v-.75" />
                         </svg>
 
-                        <p><a href="https://drive.google.com/file/d/1nbBgG6Qg9R0VPdlqiwWQEZfjgtdyom_D/view?usp=sharing" rel="noopener noreferrer"  target="_blank">Resume</a></p>
+                        <p><a href="https://drive.google.com/file/d/1N0hyg0ZRn9VzN04FGqP6NvpHS3Za6Vfc/view?usp=sharing" rel="noopener noreferrer"  target="_blank">Resume</a></p>
                     </button>
 
                     <button className="flex py-2 px-4 border border-white gap-2 w-[7.5rem] rounded transition duration-300 ease-out hover:scale-105">
@@ -83,7 +83,7 @@ export default function About() {
                             <path strokeLinecap="round" strokeLinejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 0 0 4.5 9.75v7.5a2.25 2.25 0 0 0 2.25 2.25h7.5a2.25 2.25 0 0 0 2.25-2.25v-7.5a2.25 2.25 0 0 0-2.25-2.25h-.75m-6 3.75 3 3m0 0 3-3m-3 3V1.5m6 9h.75a2.25 2.25 0 0 1 2.25 2.25v7.5a2.25 2.25 0 0 1-2.25 2.25h-7.5a2.25 2.25 0 0 1-2.25-2.25v-.75" />
                         </svg>
 
-                        <p><a href="https://drive.google.com/file/d/1nbBgG6Qg9R0VPdlqiwWQEZfjgtdyom_D/view?usp=sharing" rel="noopener noreferrer"  target="_blank">CV</a></p>
+                        <p><a href="https://drive.google.com/file/d/1N0hyg0ZRn9VzN04FGqP6NvpHS3Za6Vfc/view?usp=sharing" rel="noopener noreferrer"  target="_blank">CV</a></p>
                     </button>
                 </div>
             </div>

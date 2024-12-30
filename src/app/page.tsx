@@ -8,7 +8,7 @@ import Projects from "@/components/Projects/Projects";
 export default function Home() {
   return (
     <main className="">       
-        <div id="home" className=" relaive bg-gray-100 bg-cover sm:bg-[url('../../public/assets/img-7.png')]">
+        <div id="home" className=" relaive bg-gray-100 bg-cover">
           <TopBanner />
 
           <div id="home-content" className="flex flex-col justify-between gap-6 pt-24 items-center p-10 px-0 bg-black md:gap-10 md:pt-36 lg:pt-[11.6rem] lg:py-[4.1rem] lg:flex-row lg:gap-0 md:px-16">
