@@ -5,6 +5,36 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
 import Link from "next/link";
 
+const projectsList = [
+  {
+    name: "Adelsts Ventures Ltd Official Website",
+    description: "Adelsts Ventures Limited is a supply chain management and business development firm specializing in the logistics and distribution of goods and services. This official website aims to provide a comprehensive overview of the company's activities, products, and services. I built this website, manage its domain and email service.",
+    codeLink: "/#",
+    projectLink: "https://www.adelstsventuresltd.com/",
+    thumbnail: "/assets/adelsts.png",
+    isProprietary: true,
+    techStack: ["Next", "Tailwind CSS", "Typescript", "Vercel"],
+  },
+  {
+    name: "AVE - the attendance app",
+    description: "The cumbersome and unverifiable process of signing attendance on a piece of paper within Nigerian universities for a great number of students is a major problem. Ave utilizes geofences and unique codes to verify student attendance using their coordinates in relation to class creation coordinates",
+    codeLink: "https://github.com/ELECTRON11111/ave",
+    projectLink: "https://ave-self.vercel.app/",
+    thumbnail: "/assets/ave.png",
+    isProprietary: false,
+    techStack: ["Next Js", "Tailwind CSS", "Typescript", "Vercel"],
+  },
+  {
+    name: "MUSICA",
+    description: " This is a music playing app based on a complex UI design in figma requiring API consumption and integration. The application was built using React Js for its component-based nature, reusability and scalability. On this project, I worked alongside a Backend engineer and a web designer for the development.",
+    codeLink: "https://github.com/ELECTRON11111/musica",
+    projectLink: "http://zoomplay.netlify.app/",
+    thumbnail: "/assets/musica.png",
+    isProprietary: false,
+    techStack: ["React Js", "CSS Modules", "Typescript", "Vercel"],
+  },
+]
+
 function Project(props:any) {
   return (
     <CardContainer className="inter-var mx-8">
@@ -18,7 +48,7 @@ function Project(props:any) {
         <CardItem
           as="p"
           translateZ="60"
-          className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+          className="text-neutral-500 text-justify text-sm max-w-sm mt-2 dark:text-neutral-300 sm:max-w-fit"
         >
           {props.description}
         </CardItem>
@@ -31,7 +61,17 @@ function Project(props:any) {
             alt="thumbnail"
           />
         </CardItem>
-        <div className="flex justify-between items-center mt-20">
+
+        {/* Technologies used */}
+        <div className="py-8 flex justify-between flex-wrap">
+          {(props.techStack as Array<string>).map((tech, index) => (
+            <div key={index} className="p-4 py-2 text-white border-2 my-2 border-white w-fit rounded-lg transition duration-300 ease-out hover:border-3 hover:border-yellow-500">
+              {tech}
+            </div>
+          ))}
+        </div>
+
+        <div className="flex justify-between items-center">
           <CardItem
             translateZ={20}
             as={Link}
@@ -39,7 +79,7 @@ function Project(props:any) {
             target="__blank"
             className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white hover:text-yellow-500"
           >
-            View code →
+            {props.isProprietary? "Proprietary" :"View code →"}
           </CardItem>
           <CardItem
             translateZ={20}
@@ -61,26 +101,19 @@ export default function Projects() {
     <div id="Projects" className="bg-black pb-16">
       <h1 className="py-4 px-8 pt-16 text-xl font-extrabold text-white sm:justify-self-center md:py-8 lg:px-0">Projects.</h1>
 
-      <div id="projects-list" className="flex flex-col justify-center gap-6 sm:gap-8 xl:flex-row xl:gap-0">
-        <Project 
-          name="AVE - the attendance app" 
-          description="The cumbersome and unverifiable process of signing attendance on a piece of paper within Nigerian 
-          universities for a great number of students is a major problem. Ave utilizes geofences and unique codes to verify 
-          student attendance using their coordinates in relation to class creation coordinates"  
-          codeLink="https://github.com/ELECTRON11111/ave"
-          projectLink="https://ave-self.vercel.app/"
-          thumbnail="/assets/ave.png"
-        />
-
-        <Project
-          name="MUSICA"
-          description=" This is a music playing app based on a complex UI design in figma requiring API consumption and integration. 
-          The application was built using React Js for its component-based nature, reusability and scalability. On this project, I worked 
-          alongside a Backend engineer and a web designer for the development."
-          codeLink = "https://github.com/ELECTRON11111/musica"
-          projectLink = "http://zoomplay.netlify.app/"
-          thumbnail="/assets/musica.png"
-        />
+      <div id="projects-list" className="flex flex-col justify-center gap-6 sm:gap-8 sm:flex-wrap xl:flex-row">
+        {[...projectsList].map((project, index) => (
+          <Project
+            key={index}
+            name={project.name}
+            description={project.description}
+            codeLink={project.codeLink}
+            projectLink={project.projectLink}
+            thumbnail={project.thumbnail}
+            isProprietary={project.isProprietary}
+            techStack={project.techStack}
+          />
+        ))}
       </div>
     </div>
   )
