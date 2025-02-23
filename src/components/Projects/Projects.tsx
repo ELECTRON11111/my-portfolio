@@ -65,7 +65,7 @@ function Project(props:any) {
         {/* Technologies used */}
         <div className="py-8 flex justify-between flex-wrap">
           {(props.techStack as Array<string>).map((tech, index) => (
-            <div key={index} className="p-4 py-2 text-white border-2 my-2 border-white w-fit rounded-lg transition duration-300 ease-out hover:border-3 hover:border-yellow-500">
+            <div key={index} className="p-4 py-2 text-white border-2 my-2 border-white w-fit rounded-lg transition duration-300 ease-out hover:border-3 hover:border-yellow-500 hover:text-yellow-500">
               {tech}
             </div>
           ))}

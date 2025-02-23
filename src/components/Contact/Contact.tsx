@@ -8,7 +8,8 @@ export default function Contact () {
     const router = useRouter();
     
     return (        
-        <div className="bg-gray-900 text-white p-8 py-16 pb-4 grid grid-rows-3 gap-10 sm:grid-rows-1 sm:grid-cols-3 sm:py-16 lg:px-20" id="Contact">
+        <><div className="bg-white h-1 w-[60px] relative">.</div>
+        <div className="bg-black text-white p-8 py-16 pb-4 grid grid-rows-3 gap-10 sm:grid-rows-1 sm:grid-cols-3 sm:py-16 lg:px-20" id="Contact">
             <div id="Get-in-touch" className="pb-4 mr-2">
                 <h3 className="text-xl font-extrabold py-4">Get In Touch.</h3>
     
@@ -62,6 +63,6 @@ export default function Contact () {
                 </div>
                 <p>Copyright © {year} OO</p>
             </div>
-        </div>
+        </div></>
     )
 }
