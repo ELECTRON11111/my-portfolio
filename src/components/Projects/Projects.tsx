@@ -19,7 +19,7 @@ const projectsList = [
     name: "AVE - the attendance app",
     description: "The cumbersome and unverifiable process of signing attendance on a piece of paper within Nigerian universities for a great number of students is a major problem. Ave utilizes geofences and unique codes to verify student attendance using their coordinates in relation to class creation coordinates",
     codeLink: "https://github.com/ELECTRON11111/ave",
-    projectLink: "https://ave-self.vercel.app/",
+    projectLink: "https://ave-main.onrender.com/",
     thumbnail: "/assets/ave.png",
     isProprietary: false,
     techStack: ["Next Js", "Tailwind CSS", "Typescript", "Vercel"],
