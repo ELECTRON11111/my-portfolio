@@ -7,7 +7,7 @@ export default function About() {
             date: "Feb 2025 – Present",
             role: "Lead Frontend Engineer",
             imgSrc: "/assets/knot9ja-logo.png",
-            company: "Knot9ja (Remote - Contract)",
+            company: "Knot9ja (Remote)",
             description: [
             "Leading a team of 3 (frontend devs & designer) to build intuitive user interfaces and experiences.",
             "Converted 20+ Figma design pages into clean and responsive Next.js code within 2 weeks of project commencement.",
