@@ -15,6 +15,7 @@ export default function Skills() {
                 <h3>User Experience (UX) Optimization</h3>
                 <h3>Search Engine Optimization (SEO)</h3>
                 <h3>Responsive Design</h3>
+                <h3>Code Maintainability and Scalability</h3>
             </div>
 
             <div id="known_technologies" className="py-4 flex flex-col sm:p-6">

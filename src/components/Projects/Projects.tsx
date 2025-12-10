@@ -33,7 +33,12 @@ const projectsList = [
   },
   {
     name: "The RetroFest Ticketing Platform",
-    description: "SafeLink is a secure, escrow-driven e-commerce platform for informal vendors. It uses role-based authentication, KYC verification, and a multi-stage escrow flow to ensure trusted transactions between buyers and sellers. The platform handles orders and payments through a state-based system—from payment hold to fulfillment and release—while integrating Supabase auth, email verification, and basic dispute logic.",
+    description: `
+      SafeLink is a secure, escrow-driven e-commerce platform for informal vendors. It uses role-based authentication, KYC verification, 
+      and a multi-stage escrow flow to ensure trusted transactions between buyers and sellers. The platform handles orders and payments through 
+      a state-based system—from payment hold to fulfillment and release—while integrating Supabase auth, email verification, and basic dispute logic.
+      Handled and processed purchase and generation of 150+ tickets.
+    `,
     codeLink: "/#",
     projectLink: "https://www.theretrofest.com.ng/",
     thumbnail: "/assets/retrofest.png",

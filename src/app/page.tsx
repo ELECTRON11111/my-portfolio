@@ -16,10 +16,10 @@ export default function Home() {
               <h1 className="text-4xl font-bold md:text-6xl">Hello, there 👋</h1>
               <h2 className="text-xl font-poppins md:text-3xl">I&apos;m <span className="text-yellow-500 text-bold">Opemipo Omoniyi (ELECTRON)</span></h2>
               <p className="font-poppins leading-[32px] sm:text-justify">
-                Frontend Developer with 3 years of experience in developing web applications from ideation to designs and to 
-                live applications using technologies like React Js, Typescript, Javascript, HTML, CSS and so on. Skilled at writing 
-                clear, concise code that is easy to maintain and troubleshoot to solve problems. Experienced in working in teams across 
-                multiple projects. Able to work independently from remote locations or in office environments as needed.
+                Seasoned Software Engineer with 3+ years of experience building performant, intuitive, and accessible production applications using technologies 
+                like Next.js, React.js, and TypeScript. I take charge of projects with a strong product mindset—focusing not just on writing code, but on delivering 
+                real value, usability, and business impact. I follow engineering best practices such as SOLID, DRY, and clean architecture to ensure long-term maintainability 
+                and scale. Comfortable leading initiatives, collaborating with cross-functional teams, or working independently in both remote and on-site environments.
               </p>
             </div>
 
