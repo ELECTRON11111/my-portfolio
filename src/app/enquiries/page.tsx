@@ -71,7 +71,7 @@ export default function Enquires() {
     };
 
     return (
-        <div id="Enquire" className="pt-36 pb-10 px-8 flex flex-col bg-black w-full min-h-screen sm:px-20 lg:flex-row lg:justify-around">
+        <div id="Enquire" className="pt-36 pb-10 px-8 flex flex-col bg-neutral-900 w-full min-h-screen sm:px-20 lg:flex-row lg:justify-around">
             {/* The topbanner is the navigation absolutely positioned, not in document flow */}
             <TopBanner /> 
             

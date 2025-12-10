@@ -53,7 +53,7 @@ export default function About() {
         },
     ];
     return (
-        <div id="about" className="p-8 py-16 flex flex-col text-center bg-black text-white md:px-20">
+        <div id="about" className="p-8 py-16 flex flex-col text-center bg-neutral-900 text-white md:px-20">
             <h2 className="py-4 text-xl text-start font-extrabold sm:text-center sm:justify-self-center sm:pb-8">Work Experiences.</h2>
             
             <div className="work-experiences flex flex-col gap-6">
