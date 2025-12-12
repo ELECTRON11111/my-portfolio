@@ -11,7 +11,7 @@ export default function Home() {
         <div id="home" className=" relaive bg-gray-100 bg-cover">
           <TopBanner />
 
-          <div id="home-content" className="flex flex-col justify-between gap-6 pt-24 items-center p-10 px-0 bg-neutral-900 md:gap-10 md:pt-36 lg:pt-[11.6rem] lg:py-[4.1rem] lg:flex-row lg:gap-0 md:px-16">
+          <div id="home" className="flex flex-col justify-between gap-6 pt-24 items-center p-10 px-0 bg-neutral-900 md:gap-10 md:pt-36 lg:pt-[11.6rem] lg:py-[4.1rem] lg:flex-row lg:gap-0 md:px-16">
             <div className="text-content flex flex-col gap-4 text-white px-8 leading-6">
               <h1 className="text-4xl font-bold md:text-6xl">Hello, there 👋</h1>
               <h2 className="text-xl font-poppins md:text-3xl">I&apos;m <span className="text-yellow-500 text-bold">Opemipo Omoniyi (ELECTRON)</span></h2>

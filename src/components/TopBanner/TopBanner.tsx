@@ -1,9 +1,15 @@
 "use client";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
+import { useActiveSection } from "@/hooks/useActiveSection";
 import Link from "next/link";
+
+const SECTIONS = ["home", "about", "projects"];
 
 export default function TopBanner() {
     const [isDrawerOpen, changeIsDrawerOpen] = useState(false);
+    const pathname = usePathname();
+    const active = useActiveSection(SECTIONS);
 
     const drawerClickedHandler = () => {
         changeIsDrawerOpen(!isDrawerOpen);
@@ -19,10 +25,10 @@ export default function TopBanner() {
 
             <nav className={`${isDrawerOpen? "": "hidden"} col-span-2 justify-self-center sm:block sm:self-center`}>
                 <ul className="grid grid-cols-2 gap-2 sm:flex md:gap-16">
-                    <li className="link"><Link href="/">Home</Link></li>
-                    <li className="link"><Link href="/#about">Experiences</Link></li>
-                    <li className="link"><Link href="/#Projects">Projects</Link></li>
-                    <li className="link"><Link href="/enquiries">Contact</Link></li>
+                    <Link href="/" className={`link ${active === "home" && pathname === "/" ? "link-active": ""}`}>Home</Link>
+                    <Link href="/#about" className={`link ${active === "about" ? "link-active": ""}`}>Experiences</Link>
+                    <Link href="/#projects" className={`link ${active === "projects" ? "link-active": ""}`}>Projects</Link>
+                    <Link href="/enquiries" className={`link ${pathname === "/enquiries" ? "link-active": ""}`}>Contact</Link>
                 </ul>
             </nav>
 

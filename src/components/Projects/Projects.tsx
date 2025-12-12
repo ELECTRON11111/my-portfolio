@@ -147,8 +147,8 @@ function Project(props:any) {
 
 export default function Projects() {
   return (
-    <div id="Projects" className="bg-neutral-900 pb-16">
-      <h1 className="py-4 px-8 pt-16 text-xl font-extrabold text-white sm:justify-self-center md:py-8 lg:px-0">Projects.</h1>
+    <div id="projects" className="bg-neutral-900 pb-16">
+      <h1 className="py-4 px-8 pt-4 text-xl font-extrabold text-white sm:justify-self-center md:py-8 lg:px-0">Projects.</h1>
 
       <div id="projects-list" className="flex flex-col justify-center gap-6 sm:gap-8 sm:flex-wrap xl:flex-row">
         {[...projectsList].map((project, index) => (

@@ -9,6 +9,10 @@
   @apply rounded cursor-pointer p-4 hover:underline hover:text-yellow-500 sm:p-1
 }
 
+.link-active {
+  @apply underline text-yellow-500;
+}
+
 .button {
   @apply border-2 cursor-pointer justify-self-center my-2 border-black rounded text-black px-4 py-2 text-center self-center justify-center
   transition duration-300 ease-out hover:scale-105 sm:self-start sm:text-white sm:border-white sm:row-start-3 sm:col-span-2 sm:justify-self-center
