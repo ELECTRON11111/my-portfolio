@@ -62,7 +62,7 @@ export function useActiveSection(sectionIds: string[]) {
 
   useEffect(() => {
     const observer = new IntersectionObserver(
-      (entries) => {
+      (entries) => {    
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             setActive(entry.target.id);
