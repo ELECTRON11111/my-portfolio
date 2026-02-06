@@ -5,16 +5,16 @@ export default function About() {
     const workExperiences = [
         {
             date: "Feb 2025 – Present",
-            role: "Lead Frontend Engineer",
+            role: "Frontend Engineer",
             imgSrc: "/assets/knot9ja-logo.png",
-            company: "Knot9ja (Remote)",
+            company: "Knot9ja (Remote - contract)",
             description: [
-            "Leading a team of 3 (frontend devs & designer) to build intuitive user interfaces and experiences.",
-            "Converted 20+ Figma design pages into clean and responsive Next.js code within 2 weeks of project commencement.",
-            "Developed Knot9ja’s job matching platform dashboard with React TS & Tailwind CSS, reducing development time by 20%.",
-            "Implemented unit and integration tests with 80% code coverage, reducing risks of production bugs.",
-            "Reviewed pull requests to ensure timely and effective issue resolution.",
-            "Collaborated with backend engineers to design REST API contracts for seamless data exchange."
+            "Led frontend architecture and implementation for a job-matching platform, defining component structure, data-flow patterns, and UI state management using Next.js, React, and TypeScript.",
+            "Translated 20+ Figma designs into scalable, reusable UI components within 2 weeks, optimizing for responsiveness, accessibility, and maintainability.",
+            "Designed and implemented a dashboard system with Tailwind CSS and modular components, reducing overall development time by ~20%.",
+            "Established frontend quality standards by introducing unit and integration testing (Jest, React Testing Library), achieving ~80% code coverage and reducing production bugs.",
+            "Collaborated with backend engineers to define REST API contracts, handle edge cases, and ensure predictable data exchange across environments.",
+            "Reviewed pull requests, enforced coding standards, and guided team members on performance, readability, and best practices."
             ]
         },
         {
@@ -23,12 +23,11 @@ export default function About() {
             imgSrc: "/assets/acme-logo.png",
             company: "ACME Software Labs (Remote)",
             description: [
-            "Converted full UI/UX designs into functional, optimized React applications with a 15% boost in site speed.",
-            "Collaborated with designers to build intuitive interfaces that improved user experience by 25%.",
-            "Utilized GitHub for team collaboration, improving version control efficiency by 50%.",
-            "Contributed to the development of a new company webpage using Agile methodologies for timely delivery.",
-            "Wrote unit and integration tests with Jest and React Testing Library to boost code quality and catch bugs early.",
-            "Worked with engineers and a product designer to build multiple products using HTML, CSS, JS, React, TypeScript, and Figma."
+            "Built and optimized production-ready user interfaces from UI/UX designs using React and TypeScript, improving page load speed by ~15% through rendering and component optimizations.",
+            "Collaborated closely with designers and product stakeholders to refine user flows, contributing to a ~25% improvement in user experience metrics.",
+            "Implemented reusable UI components and consistent styling patterns to improve maintainability and reduce duplication across the codebase.",
+            "Wrote unit and integration tests with Jest and React Testing Library to catch regressions early and improve overall code reliability.",
+            "Worked within an Agile development process, participating in sprint planning, reviews, and cross-team collaboration."
             ]
         },
         {
@@ -64,8 +63,8 @@ export default function About() {
             company: "The Inventors Community (Hybrid - Nigeria)",
             description: [
             "Mentoring 200+ students at Bells University of Technology.",
-            "Leading a team of 11 leads to foster member growth and development within the community.",
-            "Managing talents and skills to achieve community goals."
+            "Leading a team of 11 other leads to foster growth and development for community members.",
+            "Managing skills and talents towards community goals."
             ]
         },
 
@@ -75,9 +74,9 @@ export default function About() {
             imgSrc: "/assets/inventors-logo.png",
             company: "The Inventors Community (Hybrid)",
             description: [
-            "Led a frontend team of 5+ to build new community landing pages and the admin portal.",
-            "Delivered 20+ functional UI components based on design specifications.",
-            "Mentored junior developers and coordinated integration across frontend, backend, and design teams."
+            "Led a frontend team of 5+ building the new community landing pages and admin portal.",
+            "Delivered 20+ functional UI components from design specifications.",
+            "Mentored junior developers and coordinated backend/design integration."
             ]
         }
     ];
