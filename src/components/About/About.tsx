@@ -4,10 +4,23 @@ import {motion} from "motion/react"
 export default function About() {
     const workExperiences = [
         {
-            date: "Feb 2025 – Present",
+            date: "March 2026 – Present",
+            role: "Frontend Software Engineer",
+            imgSrc: "/assets/knot9ja-logo.png",
+            company: "Gloopro (Hybrid - Lagos, Nigeria)",
+            description: [
+            "Led the migration of 2 business-critical legacy CMS applications to a modern React/Next.js stack in 12 weeks, driving a 3x increase in storefront purchases and eliminating a key operational bottleneck.",
+            "Owned delivery of high-priority features end-to-end, consistently shipping ahead of schedule and unblocking downstream teams reliant on faster feature turnaround.",
+            "Drove the redesign and technical translation of legacy UI into a modern design system, establishing patterns adopted across the storefront codebase.",
+            "Identified and resolved performance bottlenecks across the storefront web app, cutting load times by over 20% and materially improving user experience and conversion.",
+            "Directed system design discussions and led code reviews, shaping architectural decisions that improved scalability and long-term maintainability of the platform."
+            ]
+        },
+        {
+            date: "Feb 2025 – March 2026",
             role: "Frontend Engineer",
             imgSrc: "/assets/knot9ja-logo.png",
-            company: "Knot9ja (Remote - contract)",
+            company: "Knot9ja (Remote)",
             description: [
             "Led frontend architecture and implementation for a job-matching platform, defining component structure, data-flow patterns, and UI state management using Next.js, React, and TypeScript.",
             "Translated 20+ Figma designs into scalable, reusable UI components within 2 weeks, optimizing for responsiveness, accessibility, and maintainability.",
@@ -57,33 +70,21 @@ export default function About() {
 
     const volunteerExperiences = [
         {
-            date: "Sept 2025 – Present",
+            date: "June 2024 – Present",
             role: "Community Lead",
             imgSrc: "/assets/inventors-logo.png",
             company: "The Inventors Community (Hybrid - Nigeria)",
             description: [
-            "Mentoring 200+ students at Bells University of Technology.",
-            "Leading a team of 11 other leads to foster growth and development for community members.",
-            "Managing skills and talents towards community goals."
+            "Lead a team of 11 community leads and mentor 200+ students at Bells University of Technology, driving engagement and skill development across the community.",
+            "Direct a frontend team of 5+ engineers building the community's landing pages and admin portal, from architecture decisions through delivery of 20+ production UI components.",
+            "Coordinate cross-functional integration between frontend, backend, and design to ship cohesive, on-time releases."
             ]
         },
-
-        {
-            date: "Jun 2024 – Sept 2025",
-            role: "Frontend Lead",
-            imgSrc: "/assets/inventors-logo.png",
-            company: "The Inventors Community (Hybrid)",
-            description: [
-            "Led a frontend team of 5+ building the new community landing pages and admin portal.",
-            "Delivered 20+ functional UI components from design specifications.",
-            "Mentored junior developers and coordinated backend/design integration."
-            ]
-        }
     ];
 
     return (
         <div id="about" className="p-8 py-16 pb-8 flex flex-col text-center bg-neutral-900 text-white md:px-20">
-            <h2 className="py-4 text-xl text-start font-extrabold sm:text-center sm:justify-self-center sm:pb-8">Work Experiences.</h2>
+            <h2 className="py-4 text-xl text-start font-extrabold sm:text-center sm:justify-self-center sm:pb-8">Work Experience.</h2>
             
             <div className="work-experiences flex flex-col gap-6">
                 {workExperiences.map((item: any, index):any => 
@@ -97,7 +98,7 @@ export default function About() {
                 )}
             </div>
             
-            <h2 className="py-4 text-xl text-start font-extrabold sm:text-center sm:justify-self-center sm:pb-8">Volunteer Experiences.</h2>
+            <h2 className="py-4 text-xl text-start font-extrabold sm:text-center sm:justify-self-center sm:pb-8">Volunteer Experience.</h2>
             
             <div className="work-experiences flex flex-col gap-6">
                 {volunteerExperiences.map((item: any, index):any => 

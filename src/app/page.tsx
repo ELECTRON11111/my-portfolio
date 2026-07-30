@@ -16,7 +16,7 @@ export default function Home() {
               <h1 className="text-4xl font-bold md:text-6xl">Hello, there 👋</h1>
               <h2 className="text-xl font-poppins md:text-3xl">I&apos;m <span className="text-yellow-500 text-bold">Opemipo Omoniyi (ELECTRON)</span></h2>
               <p className="font-poppins leading-[32px] sm:text-justify">
-                Frontend Software Engineer with 3+ years of experience building performant, accessible, and scalable production applications using Next.js, React, 
+                Frontend Software Engineer with 4+ years of experience building performant, accessible, and scalable production applications serving enterprise organizations using Next.js, React, 
                 and TypeScript. I take ownership of features from design implementation to delivery, translating complex requirements into maintainable UI systems
                 backed by testing and best practices. With a strong product mindset, I focus on usability, performance, and real business impact—beyond just writing 
                 code. Comfortable leading initiatives, collaborating with cross-functional teams, or working independently in both remote and on-site environments.

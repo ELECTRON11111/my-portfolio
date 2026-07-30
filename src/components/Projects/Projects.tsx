@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const projectsList = [
   {
-    name: "KNOT9ja",
+    name: "KNOT9ja - 2025",
     description: `
       Knot9ja is a job-matching platform designed to connect artisans with potential clients seeking their services. 
       The platform allows artisans to create profiles showcasing their skills, experience, and portfolios, while clients can post job listings and browse through artisan profiles to find the right fit for their projects. Knot9ja aims to streamline the hiring process for both artisans and clients, making it easier to find and secure work in various trades and crafts. 
@@ -32,7 +32,7 @@ const projectsList = [
     techStack: ["React", "Tailwind CSS", "Typescript", "Paystack Payments API", "Vite", "Supabase", "Vercel", "Vercel Server Functins"],
   },
   {
-    name: "The RetroFest Ticketing Platform",
+    name: "The RetroFest Ticketing Platform - 2024",
     description: `
       SafeLink is a secure, escrow-driven e-commerce platform for informal vendors. It uses role-based authentication, KYC verification, 
       and a multi-stage escrow flow to ensure trusted transactions between buyers and sellers. The platform handles orders and payments through 
@@ -40,13 +40,13 @@ const projectsList = [
       Handled and processed purchase and generation of 150+ tickets.
     `,
     codeLink: "/#",
-    projectLink: "https://www.theretrofest.com.ng/",
+    projectLink: "https://ravepulse.vercel.app/",
     thumbnail: "/assets/retrofest.png",
     isProprietary: true,
     techStack: ["Next Js", "Tailwind CSS", "Typescript", "Next Js App Router", "Paystack API", "Supabase", "Resend - Email Service"],
   },
   {
-    name: "PO-ZAC Game Therapy",
+    name: "PO-ZAC Game Therapy - 2024",
     description: "PO-ZAC Game, also known as mind shield and bullying-proof game, has been developed to train the mind to respond positively to any form of verbal bullying. It is intended to ultimately develop children and adolescents to be emotionally resilient and mentally strong and prepared against verbal bullying. This game (pozac) is a form of bibliotherapy intervention to mitigate the negative effect of verbal bullying—specifically, the use of insulting and abusive words. PO-ZAC serves as mind shield to resist verbal bullying and proof against feelings that could cause trauma and alienation socially and emotionally.",
     codeLink: "https://github.com/ELECTRON11111/po-zac/",
     projectLink: "https://po-zac.vercel.app/",
@@ -55,7 +55,7 @@ const projectsList = [
     techStack: ["Next Js", "Tailwind CSS", "Typescript", "Next Js App Router", "Firebase", "Vercel"],
   },
   {
-    name: "Adelsts Ventures Ltd Official Website",
+    name: "Adelsts Ventures Ltd Official Website - 2024",
     description: "Adelsts Ventures Limited is a supply chain management and business development firm specializing in the logistics and distribution of goods and services. This official website aims to provide a comprehensive overview of the company's activities, products, and services. I built this website, manage its domain and email service.",
     codeLink: "/#",
     projectLink: "https://www.adelstsventuresltd.com/",
@@ -64,7 +64,7 @@ const projectsList = [
     techStack: ["Next", "Tailwind CSS", "Typescript", "Vercel"],
   },
   {
-    name: "AVE - the attendance app",
+    name: "AVE - the attendance app - 2023",
     description: "The cumbersome and unverifiable process of signing attendance on a piece of paper within Nigerian universities for a great number of students is a major problem. Ave utilizes geofences and unique codes to verify student attendance using their coordinates in relation to class creation coordinates",
     codeLink: "https://github.com/ELECTRON11111/ave",
     projectLink: "https://ave-main.onrender.com/",
@@ -73,7 +73,7 @@ const projectsList = [
     techStack: ["Next Js", "Tailwind CSS", "Typescript", "Vercel"],
   },
   {
-    name: "MUSICA",
+    name: "MUSICA - 2022",
     description: " This is a music playing app based on a complex UI design in figma requiring API consumption and integration. The application was built using React Js for its component-based nature, reusability and scalability. On this project, I worked alongside a Backend engineer and a web designer for the development.",
     codeLink: "https://github.com/ELECTRON11111/musica",
     projectLink: "http://zoomplay.netlify.app/",
