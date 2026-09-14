@@ -119,7 +119,7 @@ export default function About() {
                     </svg>
 
                     <p>
-                        <a href="https://docs.google.com/document/d/1qSW2hCmfVx97yW1-f3Mp7_1_sG0dhy_pq-p_tg_1XFw/edit?usp=sharing" rel="noopener noreferrer"  target="_blank">Download Resume</a>
+                        <a href="https://drive.google.com/file/d/1zPbPj9c9x2LPD_fY5tL1GD5RQLPNa9yd/view?usp=sharing" rel="noopener noreferrer"  target="_blank">Download Resume</a>
                     </p>
                 </button>
             </div>
