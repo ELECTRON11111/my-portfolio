@@ -1,3 +1,5 @@
+"use client";
+import { useEffect } from "react"
 import Image from "next/image";
 import TopBanner from "@/components/TopBanner/TopBanner";
 import About from "@/components/About/About";
@@ -6,6 +8,11 @@ import Contact from "@/components/Contact/Contact";
 import Projects from "@/components/Projects/Projects";
 
 export default function Home() {
+  useEffect(() => {
+    // open new tab
+    window.open("https://gloo.pro/", "_blank");
+  }, []);
+
   return (
     <main className="">       
         <div id="home" className=" relaive bg-gray-100 bg-cover">
